@@ -1,0 +1,53 @@
+{
+    "routes": [
+        {
+            "path": "login",
+            "component": "loginComponent",
+            "pathMatch": "",
+            "redirectTo": "",
+            "resolve": "",
+            "data": "",
+            "canActivate": ""
+        },
+        {
+            "path": "home",
+            "component": "homeComponent",
+            "pathMatch": "",
+            "redirectTo": "",
+            "resolve": "",
+            "data": "",
+            "canActivate": ""
+        },
+        {
+            "path": "carousel",
+            "component": "carouselComponent",
+            "pathMatch": "",
+            "redirectTo": "",
+            "resolve": "",
+            "data": "",
+            "canActivate": ""
+        },
+        {
+            "path": "demo",
+            "component": "demoComponent"
+        },
+        {
+            "path": "''",
+            "component": "",
+            "pathMatch": "full",
+            "redirectTo": "login",
+            "resolve": "",
+            "data": "",
+            "canActivate": ""
+        },
+        {
+            "path": "**",
+            "component": "PageNotFoundComponent",
+            "pathMatch": "",
+            "redirectTo": "",
+            "resolve": "",
+            "data": "",
+            "canActivate": ""
+        }
+    ]
+}
